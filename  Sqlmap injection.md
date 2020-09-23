@@ -5,23 +5,23 @@ Using SQLMAP tool and Burp suite we are going to attack and retreat data from ou
 
 Check for SQL Vulnerablity in targeted website if yes then proceed with following process use simple payloads to make sure site is vulnerable.
 
-####Step-1
+#### Step-1
 
 Open Browser and take your targeted website and give some random username and password and wait to hit login
 
 
 ![image](/screenshots/1.png)
 
-####Step-2
+#### Step-2
  when i click the submit button just i did capture the requst with Burpsuit feature.
 
-####Step-3
+#### Step-3
  After capture the request, just save the result into a test file using right click on request you will see save item option save with a random name.
 
-####step-4 
+#### step-4 
 Now open terminal tpye ls to see your test file saved or not if it save now you are ready to do SQLI.
 
-####Step-5
+#### Step-5
 Now can run the SQlmap tool by using this command.
 
 ![image](/screenshots/2.png)
@@ -47,7 +47,7 @@ sqlmap -r fakebook http://rafi.host/index.php --dbs
  2.user 
 
 
-####Step-7 
+#### Step-7 
 Now you can collect the tables list which is stored in databases by using this command.
 
 command:- 
