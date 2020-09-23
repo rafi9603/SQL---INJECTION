@@ -41,7 +41,7 @@ sqlmap -r fakebook http://rafi.host/index.php --dbs
 
 ![image](/screenshots/5.png)
 
-#####Now we got database list:
+##### Now we got database list:
 
  1.information_schema
  2.user 
