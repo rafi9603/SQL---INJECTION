@@ -87,4 +87,4 @@ sqlmap -r fakebook http://rafi.host/index.php -D user -T users -C id,password,us
 
  ![image](/screenshots/6.png)
 
- Now you can see all ids,passwords,usernames using those you can login in our target page you cracked it sucessfully BOOM! 
+ Now you can see all ids,passwords,usernames using those you can login in our target page you cracked it sucessfully BOOM!
