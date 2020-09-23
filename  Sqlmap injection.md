@@ -2,6 +2,7 @@
 
 Using SQLMAP tool and Burp suite we are going to attack and retreat data from our created website(http://rafi.host/index.php)
 
+
 Check for SQL Vulnerablity in targeted website if yes then proceed with following process use simple payloads to make sure site is vulnerable.
 
 ####Step-1
